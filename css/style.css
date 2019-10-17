@@ -207,7 +207,7 @@ body::-webkit-scrollbar-thumb {
   font-weight: 400;
   text-transform: uppercase;
   letter-spacing: 3.6px;
-  margin-top: 120px;
+  padding-top: 120px;
   text-align: center;
 }
 

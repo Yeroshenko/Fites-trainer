@@ -27,10 +27,10 @@
             <a href="tel:+8 800 234-23-23">8 800 234-23-23</a>
           </div>
           <div class="contacts__social-networks">
-            <a href="#"><img src="img/vk-social-network-logo.png" alt=""></a>
-            <a href="#"><img src="img/instagram.png" alt=""></a>
-            <a href="#"><img src="img/facebook-logo.png" alt=""></a>
-            <a href="#"><img src="img/twitter-logo-silhouette.png" alt=""></a>
+            <a href="https://vk.com" target="_blank"><img src="img/vk-social-network-logo.png" alt=""></a>
+            <a href="https://www.instagram.com" target="_blank"><img src="img/instagram.png" alt=""></a>
+            <a href="https://www.facebook.com/" target="_blank"><img src="img/facebook-logo.png" alt=""></a>
+            <a href="https://twitter.com" target="_blank"><img src="img/twitter-logo-silhouette.png" alt=""></a>
           </div>
         </div>
       </nav>
@@ -43,9 +43,9 @@
         От тренера с 10 летним стажем
       </div>
       <div class="header-btn  wow fadeInUp">
-        <button class="button">
+        <a href="#feedback" class="button">
           Хочу на тренировку
-        </button>
+        </a>
       </div>
       
     </div>
@@ -152,9 +152,9 @@
             получить профильное образование всего за
             три-четыре месяца. 
           </div>
-          <button class="about-content__btn button wow fadeInUp">
+          <a href="#feedback" class="about-content__btn button wow fadeInUp">
             Напишите мне
-          </button>
+          </a>
         </div>
       </div>
     </div>
@@ -171,11 +171,18 @@
         <p>Оставьте заявку и я перезвоню вам уточнения деталей и времени тренировки.</p>
       </div>
       <div class="feedback-form wow fadeInUp">
-        <form action="#">
+        <form>
           <div class="feedback-form__inner">
+
+             <!-- Hidden Required Fields -->
+             <input type="hidden" name="project_name" value="Fitnes trener">
+             <input type="hidden" name="admin_email" value="valeriy.yeroshenko@gmail.com">
+             <input type="hidden" name="form_subject" value="Заявка из сайта">
+             <!-- END Hidden Required Fields -->
+
             <div class="feedback-form__input">
-              <input type="text" placeholder="Ваше имя">
-              <input type="text" placeholder="Ваш телефон">
+              <input type="text" name="Имя" placeholder="Ваше имя">
+              <input type="tel" name="Номер телефона" placeholder="Ваш телефон">
             </div>
             <div class="feedback-form__text">
               Нажимая на кнопку “Хочу на тренировку” вы соглашаетесь с <span>политикой конфиденциальности.</span> 
@@ -200,16 +207,16 @@
           </div>
           <div class="footer-wrap__social">
             <div class="footer-wrap__social_link wow fadeInUp" data-wow-delay = "0s">
-              <a href="#"><img src="img/vk-social-network-logo.png" alt=""></a>
+              <a href="https://vk.com" target="_blank"><img src="img/vk-social-network-logo.png" alt=""></a>
             </div>
             <div class="footer-wrap__social_link wow fadeInUp" data-wow-delay = "0.05s">
-              <a href="#"><img src="img/instagram.png" alt=""></a>
+              <a href="https://www.instagram.com" target="_blank"><img src="img/instagram.png" alt=""></a>
             </div>
             <div class="footer-wrap__social_link wow fadeInUp" data-wow-delay = "0.1s">
-              <a href="#"><img src="img/facebook-logo.png" alt=""></a>
+              <a href="https://www.facebook.com/" target="_blank"><img src="img/facebook-logo.png" alt=""></a>
             </div>
             <div class="footer-wrap__social_link wow fadeInUp" data-wow-delay = "0.15s">
-              <a href="#"><img src="img/twitter-logo-silhouette.png" alt=""></a>
+              <a href="https://twitter.com" target="_blank"><img src="img/twitter-logo-silhouette.png" alt=""></a>
             </div>
           </div>
         </div>
